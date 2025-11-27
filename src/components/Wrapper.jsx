@@ -21,7 +21,8 @@ export default function Wrapper() {
           background: "#0f172a", // Changed to a deep dark blue background
           minHeight: "100vh",
           fontFamily: "Inter, sans-serif", // Updated font for modern dark theme aesthetic
-          padding: "0 20px 40px",
+          padding: "100px 0px",
+          marginTop: "150px"
         }}
       >
         <SearchBar searchPokemon={searchPokemon} filterPokemon={filterPokemon} />
