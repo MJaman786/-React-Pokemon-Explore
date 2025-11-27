@@ -11,7 +11,7 @@
 
 ---
 
-> Project is all out frontend (vite + React + Js)
+## Project is all out frontend (`vite` + `React` + `Js`)
 
 ### It includes 
 
