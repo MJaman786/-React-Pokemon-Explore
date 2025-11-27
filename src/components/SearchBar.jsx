@@ -10,18 +10,19 @@ const SearchBar = ({ searchPokemon, filterPokemon }) => {
         width: "100%",
         zIndex: 10,
         textAlign: "center",
-        padding: "10px 0 30px",
+        padding: "10px 0 0px",
         backgroundColor: "#0f1629", // dark background so text stays visible
+        // backgroundColor:"transparent"
         // boxShadow: "0 4px 10px rgba(0,0,0,0.3)"
     };
 
     // Title style updated for light text on dark background
     const titleStyle = {
-        fontSize: "3.5em", // Slightly larger title
+        fontSize: "2em", // Slightly larger title
         fontWeight: "800",
         color: "#f8fafc", // Very light text color
         letterSpacing: "1px",
-        marginBottom: "20px",
+        marginBottom: "10px",
         textShadow: '0 2px 5px rgba(0, 0, 0, 0.5)', // Subtle shadow for depth
     };
 
@@ -60,7 +61,7 @@ const SearchBar = ({ searchPokemon, filterPokemon }) => {
             </div>
 
             {/* SEARCH INPUT */}
-            <div style={{ display: "flex", justifyContent: "center", marginBottom: "40px", }} >
+            <div style={{ display: "flex", justifyContent: "center", marginBottom: "40px",}} >
                 <input
                     value={searchPokemon}
                     onChange={(e) => filterPokemon(e.target.value)}
